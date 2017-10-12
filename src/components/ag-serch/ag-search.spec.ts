@@ -1,7 +1,7 @@
 import { flush, render } from '@stencil/core/testing';
-import { MyName } from './my-name';
+import { AgSearch } from './ag-search';
 
-describe('my-name', () => {
+describe('ag-search', () => {
   it('should build', () => {
     expect(new MyName()).toBeTruthy();
   });

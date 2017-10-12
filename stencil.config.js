@@ -1,8 +1,8 @@
 exports.config = {
-  namespace: 'myname',
+  namespace: 'agc',
   generateDistribution: true,
   bundles: [
-    { components: ['my-name'] }
+    { components: ['ag-search'] }
   ]
 };
 

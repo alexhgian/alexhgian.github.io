@@ -4,31 +4,31 @@
  * and imports for stencil collections that might be configured in your stencil.config.js file
  */
 
-import { MyName as MyName } from './components/my-name/my-name';
+import { AgSearch as AgSearch } from './components/ag-serch/ag-search';
 
-interface HTMLMyNameElement extends MyName, HTMLElement {
+interface HTMLAgSearchElement extends AgSearch, HTMLElement {
 }
-declare var HTMLMyNameElement: {
-  prototype: HTMLMyNameElement;
-  new (): HTMLMyNameElement;
+declare var HTMLAgSearchElement: {
+  prototype: HTMLAgSearchElement;
+  new (): HTMLAgSearchElement;
 };
 declare global {
   interface HTMLElementTagNameMap {
-      "my-name": HTMLMyNameElement;
+      "ag-search": HTMLAgSearchElement;
   }
   interface ElementTagNameMap {
-      "my-name": HTMLMyNameElement;
+      "ag-search": HTMLAgSearchElement;
   }
   namespace JSX {
       interface IntrinsicElements {
-          "my-name": JSXElements.MyNameAttributes;
+          "ag-search": JSXElements.AgSearchAttributes;
       }
   }
   namespace JSXElements {
-      export interface MyNameAttributes extends HTMLAttributes {
+      export interface AgSearchAttributes extends HTMLAttributes {
         
-          first?: any,
-          last?: any
+          first?: string,
+          last?: string
       }
   }
 }
