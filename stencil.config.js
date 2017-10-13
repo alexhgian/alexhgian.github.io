@@ -1,12 +1,13 @@
 exports.config = {
-  namespace: 'agc',
-  generateDistribution: true,
-  bundles: [
-    { components: ['ag-search'] }
-  ]
+    namespace: 'agc',
+    generateDistribution: true,
+    bundles: [
+        { components: ['ag-search'] }
+    ],
+    buildDir: 'app/build'
 };
 
 exports.devServer = {
-  root: 'www',
-  watchGlob: '**/**'
+    root: 'app',
+    watchGlob: '**/**'
 }
