@@ -3,11 +3,10 @@ exports.config = {
     generateDistribution: true,
     bundles: [
         { components: ['ag-search'] }
-    ],
-    buildDir: 'app/build'
+    ]
 };
 
 exports.devServer = {
-    root: 'app',
+    root: 'www',
     watchGlob: '**/**'
 }

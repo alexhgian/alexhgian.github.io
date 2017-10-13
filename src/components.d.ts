@@ -4,7 +4,7 @@
  * and imports for stencil collections that might be configured in your stencil.config.js file
  */
 
-import { AgSearch as AgSearch } from './components/ag-serch/ag-search';
+import { AgSearch as AgSearch } from './components/ag-search/ag-search';
 
 interface HTMLAgSearchElement extends AgSearch, HTMLElement {
 }
