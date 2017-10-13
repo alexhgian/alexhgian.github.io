@@ -1,0 +1,37 @@
+/*! Built with http://stenciljs.com */
+ag-app {
+  font-family: Courier New, Courier, monospace;
+  font-weight: bold;
+  display: grid;
+  grid-template: "header header" "sidebar content" "footer footer";
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 8px;
+}
+
+.box {
+  height: 100px;
+}
+
+.header {
+  grid-area: header;
+  background-color: #8BC34A;
+}
+
+.content {
+  grid-area: content;
+  background-color: #9E9E9E;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #2196F3;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #FF9800;
+}
+
+ag-app.hydrated {
+  visibility: inherit;
+}

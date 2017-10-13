@@ -2,6 +2,13 @@
   "namespace": "agc",
   "components": [
     [
+      "AG-APP",
+      "ag-app",
+      {
+        "$": "ag-app"
+      }
+    ],
+    [
       "AG-SEARCH",
       "ag-search",
       {

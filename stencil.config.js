@@ -2,7 +2,7 @@ exports.config = {
     namespace: 'agc',
     generateDistribution: true,
     bundles: [
-        { components: ['ag-search'] }
+        { components: ['ag-app'] }
     ]
 };
 
