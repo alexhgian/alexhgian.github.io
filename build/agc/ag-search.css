@@ -1,0 +1,9 @@
+/*! Built with http://stenciljs.com */
+ag-search {
+  font-family: Courier New, Courier, monospace;
+  font-weight: bold;
+}
+
+ag-search.hydrated {
+  visibility: inherit;
+}
