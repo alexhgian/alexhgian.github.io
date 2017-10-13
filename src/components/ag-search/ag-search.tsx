@@ -1,6 +1,6 @@
 import { Component, Prop, State } from '@stencil/core';
 import TestData from './ag-search.data'
-import * as Fuse from 'fuse.js';
+import Fuse from 'fuse.js';
 @Component({
   tag: 'ag-search',
   styleUrl: 'ag-search.scss'
