@@ -1070,9 +1070,7 @@ var AgSearch = /** @class */ (function () {
         this.results = this.fuse.search("");
     };
     AgSearch.prototype.debug = function (enable) {
-        return (enable) ? h("div", null,
-            "Debug: ",
-            JSON.stringify(this.results)) : null;
+        return (enable) ? h("ag-debug", { value: this.results }) : null;
     };
     AgSearch.prototype.inputHandler = function (e) {
         this.results = this.fuse.search(e.target.value);

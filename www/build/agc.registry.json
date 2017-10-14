@@ -9,6 +9,19 @@
       }
     ],
     [
+      "AG-DEBUG",
+      "ag-debug",
+      {
+        "$": "ag-debug"
+      },
+      [
+        [
+          "value",
+          1
+        ]
+      ]
+    ],
+    [
       "AG-SEARCH",
       "ag-search",
       {

@@ -35,7 +35,7 @@ export class AgSearch {
   }
 
   debug(enable){
-    return (enable)? <div>Debug: {JSON.stringify(this.results)}</div>:null;
+    return (enable)? <ag-debug value={this.results}></ag-debug>:null;
   }
 
   inputHandler(e){

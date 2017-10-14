@@ -31,6 +31,34 @@ declare global {
   }
 }
 
+import { AgApp as AgDebug } from './components/ag-debug/ag-debug';
+
+interface HTMLAgDebugElement extends AgDebug, HTMLElement {
+}
+declare var HTMLAgDebugElement: {
+  prototype: HTMLAgDebugElement;
+  new (): HTMLAgDebugElement;
+};
+declare global {
+  interface HTMLElementTagNameMap {
+      "ag-debug": HTMLAgDebugElement;
+  }
+  interface ElementTagNameMap {
+      "ag-debug": HTMLAgDebugElement;
+  }
+  namespace JSX {
+      interface IntrinsicElements {
+          "ag-debug": JSXElements.AgDebugAttributes;
+      }
+  }
+  namespace JSXElements {
+      export interface AgDebugAttributes extends HTMLAttributes {
+        
+          value?: any
+      }
+  }
+}
+
 import { AgSearch as AgSearch } from './components/ag-search/ag-search';
 
 interface HTMLAgSearchElement extends AgSearch, HTMLElement {
