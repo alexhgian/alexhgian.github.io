@@ -5,6 +5,7 @@ ag-app {
   display: grid;
   grid-template: "header header" "sidebar content" "footer footer";
   grid-template-columns: 20% auto;
+  grid-template-rows: 1fr 8fr 1fr;
   height: 100vh;
 }
 
