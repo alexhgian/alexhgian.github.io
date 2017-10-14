@@ -13,19 +13,7 @@
       "ag-search",
       {
         "$": "ag-search"
-      },
-      [
-        [
-          "first",
-          1,
-          1
-        ],
-        [
-          "last",
-          1,
-          1
-        ]
-      ]
+      }
     ]
   ],
   "loader": "agc.js",
