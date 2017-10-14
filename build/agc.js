@@ -29,4 +29,4 @@
     x.setAttribute('data-path', publicPath);
     x.setAttribute('data-core', appCore);
     document.head.appendChild(x);
-})(window, document, "agc","hydrated","/build/agc/","agc.core.js","agc.core.pf.js",[["AG-APP","ag-app",{"$":"ag-app"}],["AG-SEARCH","ag-search",{"$":"ag-search"}]]);
+})(window, document, "agc","hydrated","/build/agc/","agc.core.js","agc.core.pf.js",[["AG-APP","ag-app",{"$":"ag-app"}],["AG-DEBUG","ag-debug",{"$":"ag-debug"},[["value",1]]],["AG-SEARCH","ag-search",{"$":"ag-search"}]]);
