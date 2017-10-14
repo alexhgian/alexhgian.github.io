@@ -3,16 +3,16 @@
   "components": [
     [
       "AG-APP",
-      "ag-app",
+      "nwdm6iqe",
       {
-        "$": "ag-app"
+        "$": "nz8dsqvs"
       }
     ],
     [
       "AG-DEBUG",
-      "ag-debug",
+      "k5fzxems",
       {
-        "$": "ag-debug"
+        "$": "l9c6jken"
       },
       [
         [
@@ -23,9 +23,9 @@
     ],
     [
       "AG-SEARCH",
-      "ag-search",
+      "esdty7xs",
       {
-        "$": "ag-search"
+        "$": "yye7tkov"
       }
     ]
   ],
