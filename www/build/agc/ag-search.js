@@ -1044,6 +1044,7 @@ module.exports = Fuse;
 
 var Fuse = unwrapExports(fuse);
 
+// import SearchService from '../services/search.service';
 var AgSearch = /** @class */ (function () {
     function AgSearch() {
         this.data = TestData;
@@ -1065,7 +1066,6 @@ var AgSearch = /** @class */ (function () {
                 "locations.zip"
             ]
         };
-        // console.log(TestData);
         this.fuse = new Fuse(TestData, options); // "list" is the item array
         this.results = this.fuse.search("");
     };
@@ -1076,7 +1076,6 @@ var AgSearch = /** @class */ (function () {
     };
     AgSearch.prototype.inputHandler = function (e) {
         this.results = this.fuse.search(e.target.value);
-        // console.log(this.results)
     };
     AgSearch.prototype.render = function () {
         var _this = this;
@@ -1100,9 +1099,7 @@ exports['AG-SEARCH'] = AgSearch;
 /** ag-search: members **/
 [
   [ "data", /** state **/ 5 ],
-  [ "first", /** prop **/ 1, /** type string **/ 1 ],
   [ "fuse", /** state **/ 5 ],
-  [ "last", /** prop **/ 1, /** type string **/ 1 ],
   [ "results", /** state **/ 5 ]
 ],
 

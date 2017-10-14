@@ -1,4 +1,5 @@
-import { Component, Prop, State } from '@stencil/core';
+import { Component, Prop, State, Method } from '@stencil/core';
+// import SearchService from '../services/search.service';
 import TestData from './ag-search.data'
 import Fuse from 'fuse.js';
 @Component({
@@ -7,12 +8,10 @@ import Fuse from 'fuse.js';
 })
 export class AgSearch {
 
-  @Prop() first: string;
-  @Prop() last: string;
   @State() data: Array<any> = TestData;
   @State() results: Array<any>
   @State() fuse: Fuse;
-
+  
   componentWillLoad(){
     var options = {
       shouldSort: true,
@@ -31,7 +30,6 @@ export class AgSearch {
     ]
     };
 
-    // console.log(TestData);
     this.fuse = new Fuse(TestData, options); // "list" is the item array
     this.results = this.fuse.search("");
   }
@@ -42,7 +40,6 @@ export class AgSearch {
 
   inputHandler(e){
     this.results = this.fuse.search(e.target.value);
-    // console.log(this.results)
   }
 
   render() {

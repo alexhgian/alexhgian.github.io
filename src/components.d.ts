@@ -54,8 +54,6 @@ declare global {
   namespace JSXElements {
       export interface AgSearchAttributes extends HTMLAttributes {
         
-          first?: string,
-          last?: string
       }
   }
 }
