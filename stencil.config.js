@@ -4,7 +4,8 @@ exports.config = {
     bundles: [
         { components: ['ag-app'] }
     ],
-    publicDir:'www/build'
+    publicDir:'/build',
+    buildDir:'../build'
 };
 
 exports.devServer = {
