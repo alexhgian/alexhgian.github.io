@@ -3,7 +3,8 @@ exports.config = {
     generateDistribution: true,
     bundles: [
         { components: ['ag-app'] }
-    ]
+    ],
+    publicDir:'www/build'
 };
 
 exports.devServer = {
