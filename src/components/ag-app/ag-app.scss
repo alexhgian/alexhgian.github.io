@@ -6,7 +6,7 @@ ag-app {
     "header header"
     "sidebar content"
     "footer footer";
-    grid-template-columns: 20% auto;
+    grid-template-columns: 256px auto;
     grid-template-rows: 1fr 8fr 1fr;
   // grid-auto-rows: minmax(100px, auto);
   // grid-gap: 8px;
@@ -37,21 +37,31 @@ li:last-child{
 
 .header {
   grid-area: header; 
-  background-color: #8BC34A;
+  background-color: #263238;
+  font-size: 125%; 
+  box-shadow: 0 2px 20px rgba(0,0,0,0.19), 0 1px 6px rgba(0,0,0,0.23);
+  z-index: 2;
+ 
 }
 
 .content {
   grid-area: content; 
-  background-color: #9E9E9E;
+  background-color: #455A64;
 }
 
 .sidebar {
   grid-area: sidebar;
-  background-color: #2196F3;
+  background-color: #37474F;
+  // border-right: solid;
+  // border-right-width: 1px;
+  z-index: 1;
 }
 
 .footer {
   grid-area: footer;
-  background-color: #FF9800;
+  background-color: #546E7A;
+  font-size: 90%; 
+  box-shadow: 0 -2px 20px rgba(0,0,0,0.19), 0 1px 6px rgba(0,0,0,0.23);
+  z-index: 2;
 }
 

@@ -20,7 +20,7 @@ export class AgApp {
   render() {
     return [
       <div class="box header">
-        Alex's Dashboard 
+        Demo Dashboard
       </div>,  
       <ul class="box sidebar">
         <li>Built with Stencil</li>
