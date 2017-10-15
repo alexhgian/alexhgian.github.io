@@ -1,0 +1,35 @@
+{
+  "namespace": "agc",
+  "components": [
+    [
+      "AG-APP",
+      "nwdm6iqe",
+      {
+        "$": "nz8dsqvs"
+      }
+    ],
+    [
+      "AG-DEBUG",
+      "k5fzxems",
+      {
+        "$": "l9c6jken"
+      },
+      [
+        [
+          "value",
+          1
+        ]
+      ]
+    ],
+    [
+      "AG-SEARCH",
+      "esdty7xs",
+      {
+        "$": "yye7tkov"
+      }
+    ]
+  ],
+  "loader": "agc.js",
+  "core": "agc/agc.ihqj46bf.js",
+  "corePolyfilled": "agc/agc.j2loe9pv.pf.js"
+}

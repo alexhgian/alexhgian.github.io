@@ -11,12 +11,13 @@
     "browser": "dist/agc.js",
     "scripts": {
         "build": "stencil build --prerender",
-        "dev": "sd concurrent \"stencil build --prerender --watch\" \"stencil-dev-server\" ",
+        "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
         "dev.nowatch": "stencil build --dev",
         "serve": "stencil-dev-server",
         "start": "npm run dev",
         "test": "jest --no-cache",
-        "test.watch": "jest --watch --no-cache"
+        "test.watch": "jest --watch --no-cache",
+        "deploy": "git subtree push --prefix www origin master"
     },
     "dependencies": {
         "@stencil/core": "next",
