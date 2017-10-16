@@ -8,7 +8,7 @@ ag-app {
     "content"
     "footer";
   height: 100vh;
-  
+  grid-template-rows: 1fr 2fr 8fr 1fr;
 }
 
 ul {
