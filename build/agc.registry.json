@@ -3,16 +3,16 @@
   "components": [
     [
       "AG-APP",
-      "ag-app",
+      "cuyhpkeu",
       {
-        "$": "ag-app"
+        "$": "qphgssjm"
       }
     ],
     [
       "AG-DEBUG",
-      "ag-debug",
+      "k5fzxems",
       {
-        "$": "ag-debug"
+        "$": "l9c6jken"
       },
       [
         [
@@ -23,13 +23,13 @@
     ],
     [
       "AG-SEARCH",
-      "ag-search",
+      "esdty7xs",
       {
-        "$": "ag-search"
+        "$": "p0grnsji"
       }
     ]
   ],
   "loader": "agc.js",
-  "core": "agc/agc.core.js",
-  "corePolyfilled": "agc/agc.core.pf.js"
+  "core": "agc/agc.ihqj46bf.js",
+  "corePolyfilled": "agc/agc.j2loe9pv.pf.js"
 }
