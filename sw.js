@@ -19,6 +19,10 @@ importScripts('workbox-sw.prod.v2.1.0.js');
  */
 const fileManifest = [
   {
+    "url": "assets/ag-icon.png",
+    "revision": "c17bb3e211c01cf499f3865cf4b5717c"
+  },
+  {
     "url": "build/agc.js",
     "revision": "95f864080394460aad06ce5e33271e61"
   },
@@ -59,8 +63,16 @@ const fileManifest = [
     "revision": "e2413c3f9db94dde5db9ab4f36a974b7"
   },
   {
+    "url": "favicon.ico",
+    "revision": "99564f95ba2c9035d0b44ff09b765501"
+  },
+  {
     "url": "index.html",
-    "revision": "78ad29b3cc0c91e894728db5be355145"
+    "revision": "eac50024b81c360a6a8dd612204cfe2c"
+  },
+  {
+    "url": "manifest.json",
+    "revision": "1ef0aeddb613af5198322b8445810433"
   }
 ];
 
