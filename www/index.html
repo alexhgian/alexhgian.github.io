@@ -1,15 +1,34 @@
-<!DOCTYPE html><html dir="ltr" lang="en"><head><style data-styles="">ag-app{font-family:Courier New,Courier,monospace;font-weight:700;display:grid;grid-template-areas:"header" "sidebar" "content" "footer";height:100vh;grid-template-rows:1fr 2fr 8fr 1fr;}ul{margin:0;}li{border:#fff;border-radius:2px;border-bottom-style:solid;}li:last-child{border-bottom-style:none;}.box{background-color:#444;color:#fff;padding:10px;}.header{grid-area:header;background-color:#263238;font-size:125%;box-shadow:0 2px 20px rgba(0,0,0,.19),0 1px 6px rgba(0,0,0,.23);z-index:2;}.content{grid-area:content;background-color:#455a64;}.sidebar{grid-area:sidebar;background-color:#37474f;z-index:1;}.footer{grid-area:footer;background-color:#546e7a;font-size:90%;box-shadow:0 -2px 20px rgba(0,0,0,.19),0 1px 6px rgba(0,0,0,.23);z-index:2;}@media only screen and (min-width:500px){ag-app{grid-template-columns:256px auto;grid-template-rows:1fr 8fr 1fr;grid-template-areas:"header   header" "sidebar  content" "footer   footer";}}ag-app.hydrated{visibility:inherit;}input{margin:0;height:32px;border-width:0;border-radius:2px;width:100%;font-size:14px;color:#6a737c;}ag-search.hydrated{visibility:inherit;}ag-debug.hydrated{visibility:inherit;}</style> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"> <title>Alex's Code</title> <meta name="prerendered"><link rel="canonical" href="/"></head> <body> <style>
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+    <title>Alex's Code</title>
+    <script src="/build/agc.js"></script>
+
+</head>
+
+<body>
+    <style>
         body {
             margin: 0px;
             padding: 0px;
         }
-    </style> <ag-app data-ssrv="0" class="hydrated"><div class="box header" data-ssrc="0.0"><!--s.0.0-->Demo Dashboard<!--/--> </div><ul class="box sidebar" data-ssrc="0.1"><li data-ssrc="0.0"><!--s.0.0-->Built with Stencil<!--/--> </li><li data-ssrc="0.1"><!--s.0.0-->CSS Grid Layout<!--/--> </li></ul><ag-search class="box content hydrated" data-ssrc="0.2." data-ssrv="1"><input data-ssrc="1.0."><ag-debug data-ssrc="1.1." data-ssrv="3" class="hydrated"></ag-debug></ag-search><ag-search class="box content hydrated" data-ssrc="0.3." data-ssrv="2"><input data-ssrc="2.0."><ag-debug data-ssrc="2.1." data-ssrv="4" class="hydrated"></ag-debug></ag-search><div class="box footer" data-ssrc="0.4"><!--s.0.0-->v0.0.1<!--/--> </div></ag-app> <script>
+    </style>
+    <ag-app></ag-app>
+
+  <script>
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-          .then(reg => console.log('service worker registered', reg))
-          .catch(err => console.log('service worker error', err));
+      // auto-unregister service worker during dev mode
+      navigator.serviceWorker.ready.then(registration => {
+        registration.unregister().then(() => {
+          location.reload(true);
+        });
       });
     }
-  </script> <script>/*! Built with http://stenciljs.com */
-!function(e,t,s,i,r,a,c,n,d,o){for((e[s]=e[s]||{}).components=n=n||[],(d=t.createElement("style")).setAttribute("data-styles",""),d.innerHTML=(n.map(function(e){return e[0]}).join(",")+"{visibility:hidden}.hydrated{visibility:inherit}").toLowerCase(),t.head.insertBefore(d,t.head.firstChild),s=s.toLowerCase(),o=(d=t.scripts).length-1;0<=o;o--)if(d[o].src&&d[o].src.split("/").pop()===s+".js"){r=d[o].src.replace(s+".js",s+"/");break}(d=t.createElement("script")).src=r+(e.customElements&&e.fetch?a:"agc.j2loe9pv.pf.js"),d.setAttribute("data-path",r),d.setAttribute("data-core",a),t.head.appendChild(d)}(window,document,"agc",0,"/build/agc/","agc.ihqj46bf.js",0,[["AG-APP","cuyhpkeu",{$:"qphgssjm"}],["AG-DEBUG","k5fzxems",{$:"l9c6jken"},[["value",1]]],["AG-SEARCH","esdty7xs",{$:"p0grnsji"}]]);</script></body></html>
+  </script>
+
+</body>
+
+</html>
