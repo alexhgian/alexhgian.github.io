@@ -1,0 +1,13 @@
+{
+    "short_name": "AG",
+    "name": "Alex Gian",
+    "icons": [
+        {
+        "src": "assets/ag-icon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone"
+}
