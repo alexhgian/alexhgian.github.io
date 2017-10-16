@@ -27,6 +27,7 @@ export class AgApp {
         <li>CSS Grid Layout</li>
       </ul>,
       <ag-search class="box content"></ag-search>,
+      <ag-search class="box content"></ag-search>,
       <div class="box footer">v0.0.1</div>
     ];
   }
