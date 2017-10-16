@@ -19,10 +19,6 @@ importScripts('workbox-sw.prod.v2.1.0.js');
  */
 const fileManifest = [
   {
-    "url": "assets/icon/ag-icon.png",
-    "revision": "c17bb3e211c01cf499f3865cf4b5717c"
-  },
-  {
     "url": "build/agc.js",
     "revision": "95f864080394460aad06ce5e33271e61"
   },
@@ -65,10 +61,6 @@ const fileManifest = [
   {
     "url": "index.html",
     "revision": "78ad29b3cc0c91e894728db5be355145"
-  },
-  {
-    "url": "manifest.json",
-    "revision": "5275c0b1d9f1e1676f4d01832b321ea1"
   }
 ];
 
